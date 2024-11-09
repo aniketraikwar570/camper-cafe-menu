@@ -1,0 +1,66 @@
+/* Basic Page Setup */
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c5/Roasted_coffee_beans.jpg); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Menu Container Styling */
+  .menu-container {
+    background-color: #f5e1c5;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Header Styles */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .established {
+    font-style: italic;
+    font-size: 12px;
+    color: #555;
+  }
+  
+  hr {
+    border: none;
+    border-top: 2px solid #8B0000;
+    margin: 10px 0;
+  }
+  
+  /* Section Headings */
+  h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  /* Menu Items */
+  .menu-section p {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+  }
+  
+  .menu-section span {
+    font-weight: bold;
+  }
+  
+  /* Footer Styles */
+  footer p {
+    font-size: 12px;
+    margin: 5px 0;
+    color: #555;
+  }
+  
